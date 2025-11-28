@@ -46,11 +46,11 @@ En cliquant sur un projet, vous accédez à sa vue détaillée qui comprend plus
 
 ## Gestion des Tickets (Issues)
 
-Les "Issues" représentent les tâches, bugs ou fonctionnalités à développer.
+Les "Issues" représentent les features, bugs ou fix à réaliser dans le projet. Voici comment les gérer :
 
 *   **Créer une Issue** : Dans l'onglet "Issues" ou "Backlog", cliquez sur "Créer une issue". Définissez un titre, une description, une priorité (Basse, Moyenne, Haute) et une estimation (Story Points).
 *   **Modifier/Assigner** : Cliquez sur une issue pour voir les détails, changer son statut (À faire, En cours, Terminé) ou l'assigner à un membre de l'équipe.
-*   **Sous-tâches** : Vous pouvez découper une issue en plusieurs **tâches** plus petites pour un suivi plus fin.
+*   **Tâches** : Vous pouvez découper une issue en plusieurs **tâches** plus petites pour un suivi plus fin.
 *   **Supprimer** : Possible si vous êtes le créateur du projet.
 
 ---
@@ -79,14 +79,55 @@ Dans l'onglet **Membres** d'un projet :
 
 ---
 
-## Releases (Versions)
-
-L'onglet **Releases** vous permet de créer des versions de votre logiciel, en regroupant les tickets terminés et en marquant une étape importante du projet. Le versionning suit le format MAJEUR.MINEUR.PATCH (ex: 1.0.0).
-
----
-
 ## Tests
+
+L'application intègre un système complet de tests pour valider le code de vos issues.
+
+### Tests JavaScript pour les Issues
+
+Chaque issue peut avoir son propre **playground de tests JavaScript** accessible depuis la page de détails de l'issue.
+
+#### Fonctionnalités
+
+*   **Éditeur de Code** : Écrivez votre code JavaScript dans un éditeur dédié.
+*   **Éditeur de Tests** : Rédigez vos tests unitaires pour valider le code.
+*   **Exécution Sandbox** : Les tests s'exécutent dans un Web Worker isolé (sandbox) avec un timeout de 5 secondes pour éviter les boucles infinies.
+*   **Résultats Détaillés** : Après exécution, visualisez :
+    *   Le nombre de tests réussis/échoués
+    *   Les logs de console
+    *   Les messages d'erreur avec stack traces
+*   **Sauvegarde** : Enregistrez vos tests pour les réutiliser plus tard.
+*   **Import/Export** : Importez du code depuis des fichiers ou téléchargez vos tests.
+*   **Historique** : Consultez et rechargez les tests sauvegardés précédemment.
+
+#### Utilisation
+
+1.  Accédez à une issue depuis votre projet.
+2.  Cliquez sur l'onglet ou le bouton **"Tests"**.
+3.  Écrivez votre code et vos tests dans les éditeurs respectifs.
+4.  Cliquez sur **"Exécuter les tests"** pour lancer la vérification.
+5.  Consultez les résultats affichés en dessous.
+6.  Utilisez **"Sauvegarder ce test"** pour conserver votre travail.
 
 ---
 
 ## Documentation
+
+Chaque projet peut avoir sa propre **documentation** accessible via l'onglet "Documentation".
+
+### Créer et Éditer
+*   Cliquez sur **"Nouveau Document"** pour créer une page.
+*   Remplissez le titre et rédigez le contenu en **Markdown**.
+*   L'aperçu en temps réel vous montre le rendu final.
+*   Vous pouvez **lier des issues** au document pour tracer la documentation avec les tâches du projet.
+
+### Consulter
+*   Les documents sont affichés sous forme de cartes.
+*   Cliquez sur une carte pour voir le contenu complet.
+*   Modifiez ou supprimez les documents selon vos besoins.
+
+---
+
+## Releases (Versions)
+
+L'onglet **Releases** vous permet de créer des versions de votre logiciel, en regroupant les tickets terminés et en marquant une étape importante du projet. Le versionning suit le format MAJEUR.MINEUR.PATCH (ex: 1.0.0).
