@@ -1,19 +1,76 @@
-# Backlog du projet
+# Backlog du Projet - Gestion de Projet Agile
 
-Pour voir les détails des User Stories, se référer au fichier [Sprint0/Sprint0.md](Sprint0/Sprint0.md).
-Pour voir les tâches associées à chaque User Story, se référer au fichier [Sprint0/US_Tasks.md](Sprint0/US_Tasks.md).
+## Vue d'ensemble
 
---- 
+Ce projet vise à créer une **plateforme de gestion de projet agile** permettant de gérer les utilisateurs, projets, issues, tâches, tests, releases et documentation.
+
+### Technologies
+- **Frontend:** Vue.js
+- **Backend:** Spring Boot / Java
+- **Base de données:** PostgreSQL, MongoDB (Docker)
+- **Outils:** GitHub, Slack/Discord
+
+---
+
+## Résumé du Backlog
+
+| ID | User Story | Priorité | Estimation | Sprint |
+|----|------------|----------|------------|--------|
+| US1 | Création de Compte | Haute | 4 pts | Sprint 1 |
+| US2 | Connexion au Compte | Haute | 4 pts | Sprint 1 |
+| US3 | Gestion de Profil | Moyenne | 3 pts | Sprint 1 |
+| US4 | Création de Projet | Haute | 3 pts | Sprint 1 |
+| US5 | Gestion de Projet | Haute | 5 pts | Sprint 2 |
+| US6 | Sauvegarde des Données | Haute | 4 pts | Sprint 2 |
+| US7 | Création d'une Issue | Haute | 2 pts | Sprint 2 |
+| US8 | Assignation d'une Issue | Haute | 2 pts | Sprint 2 |
+| US9 | Modification du Statut d'une Issue | Haute | 2 pts | Sprint 2 |
+| US10 | Création de Tâches | Haute | 2 pts | Sprint 2 |
+| US11 | Visualisation du Backlog | Haute | 3 pts | Sprint 2 |
+| US12 | Visualisation des Tâches (Kanban/Liste) | Haute | 2 pts | Sprint 2 |
+| US13 | Vue des Tâches Assignées | Moyenne | 2 pts | Sprint 2 |
+| US14 | Suivi du Temps | Moyenne | 2 pts | Sprint 3 |
+| US15 | Création de Tags et Releases | Basse | 2 pts | Sprint 3 |
+| US16 | Historique des Releases | Basse | 2 pts | Sprint 3 |
+| US17 | Création de Cas de Test | Moyenne | 2 pts | Sprint 3 |
+| US18 | Exécution d'un Cas de Test | Moyenne | 2 pts | Sprint 3 |
+| US19 | Tableau de Bord des Tests | Moyenne | 2 pts | Sprint 3 |
+| US20 | Création et Édition de Documentation | Moyenne | 2 pts | Sprint 3 |
+| US21 | Organisation de la Documentation | Moyenne | 2 pts | Sprint 3 |
+| US22 | Liaison Documentation et Issues | Basse | 2 pts | Sprint 3 |
+
+**Total estimé:** 57 points  
+**Sprints planifiés:** 3  
+**Sprint actuel:** Sprint 3 (19/11 au 03/12)
+
+---
+
+## Documentation détaillée
+
+- **User Stories complètes:** [Sprint0/Sprint0.md](Sprint0/Sprint0.md)
+- **Tâches par US:** [Sprint0/US_Tasks.md](Sprint0/US_Tasks.md)
+- **Documentation utilisateur:** [docs/User.md](docs/User.md)
+- **Documentation admin:** [docs/Admin.md](docs/Admin.md)
+
+---
 
 ## Planification des Sprints
 
+---
+
 ### Sprint 1 (25/10 au 05/11)
 
-**Objectifs :**
-- Permettre aux utilisateurs de créer un compte et se connecter.
-- Permettre la création de base d'un projet.
+**Objectifs:**
+- Permettre aux utilisateurs de créer un compte et se connecter
+- Permettre la création de base d'un projet
+- Permettre la gestion du profil utilisateur
 
-**Tâches prévues :**
+**Équipe:**
+- **Scrum Master:** Kenzo
+- **Développeurs Backend:** Félix, Justus
+- **Développeurs Frontend:** Félix, Kenzo
+
+**Tâches prévues:**
 
 #### US1 : Création de Compte
 - T1.1 : Concevoir le schéma de base de données pour les utilisateurs — 1 pt  
@@ -37,24 +94,24 @@ Pour voir les tâches associées à chaque User Story, se référer au fichier [
 - T4.3 : Créer l'interface front-end pour la création de projet — 1 pt  
 
 
-**Répartition des tâches :**
-Kenzo: T1.4, T2.3, T4.3, T3.2
-Felix: T1.2, T1.3, T2.1, T2.2
-Justus: T1.1, T3.1, T3.3, T4.1, T4.2
 
-**Coût total du Sprint :**
-14 points
+**Coût total:** 14 points  
+
+---
 
 ### Sprint 2 (06/11 au 19/11)
 
-**Objectifs :**
-- Gérer la structure et les membres d’un projet.  
-- Mettre en place la sauvegarde automatique des données. 
-- Issues et Tâches
-- Gestion du backlog. 
-- Visualisation et assignation des tâches.
+**Objectifs:**
+- Gérer la structure et les membres d'un projet
+- Gestion complète des issues et tâches
+- Visualisation du backlog et des tâches (Kanban/Liste)
 
-**Tâches prévues :**
+**Équipe:**
+- **Scrum Master:** Justus
+- **Développeurs Backend:** Félix, Justus
+- **Développeurs Frontend:** Félix, Kenzo
+
+**Tâches prévues:**
 
 #### US5 : Gestion de Projet
 - T5.1 : Développer l'API de gestion des membres — 2 pts  
@@ -87,17 +144,25 @@ Justus: T1.1, T3.1, T3.3, T4.1, T4.2
 - T13.1 : Développer l'API pour récupérer les tâches assignées à un utilisateur (GET /users/me/tasks) - 1 point
 - T13.2 : Créer le dashboard personnel des tâches assignées (front-end) - 1 point 
 
+**Coût total:** 25 points
 
-### Coût total du Sprint 2 : **25 points**
-
+---
 
 ### Sprint 3 (20/11 au 03/12)
 
-**Objectifs :**
+**Objectifs:**
+- Ajouter la gestion des releases et tags pour les projets.
+- Ajouter la gestion des cas de test avec création, exécution.
+- Mettre en place un système de gestion de la documentation avec création, édition.
+- Mettre à jour la documentation utilisateur, admin et développeur pour notre projet.
+- Déployer l'application.
 
-**Tâches prévues :**
-- suivi du temps
-- releases, tests et documentation.  
+**Équipe:**
+- **Scrum Master:** Félix
+- **Développeurs Backend:** Félix, Justus
+- **Développeurs Frontend:** Félix, Kenzo
+
+**Tâches prévues:**
 
 #### US14 à US16 : Releases
 - T14.1 : Ajouter les champs de temps estimé/passé à la base de données et API (PUT /tasks/:id/time) - 1 point
@@ -123,5 +188,12 @@ Justus: T1.1, T3.1, T3.3, T4.1, T4.2
 - T22.1 : Développer l'API de liaison documentation-issues (POST /docs/:id/link-issue) - 1 point
 - T22.2 : Créer l'interface de liaison dans l'éditeur de documentation (front-end) - 1 point
 
+**Coût total:** 18 points
 
-**Coût total du Sprint 3 :** **18 points**
+---
+
+## Conventions
+
+- **Priorité:** Haute | Moyenne | Basse
+- **Estimation:** Points de complexité (1-5)
+
