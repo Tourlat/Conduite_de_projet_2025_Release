@@ -2,6 +2,8 @@
 
 Bienvenue dans la documentation utilisateur de notre application de gestion de projet. Ce guide vous expliquera comment utiliser les différentes fonctionnalités de l'application pour gérer efficacement vos projets.
 
+Notre application permet de gérer Issues, Tasks, Tests, Documentation et Releases dans un environnement collaboratif.
+
 ## Démonstration Vidéo
 
 Pour un aperçu rapide des fonctionnalités, vous pouvez visionner notre vidéo de démonstration :
