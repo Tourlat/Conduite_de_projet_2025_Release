@@ -53,4 +53,8 @@
 - [ ] T22.1 : Développer l'API de liaison documentation-issues (POST /docs/:id/link-issue) - 1 point
 - [ ] T22.2 : Créer l'interface de liaison dans l'éditeur de documentation (front-end) - 1 point
 
-### Coût total du Sprint 3 : **18 points**
+---
+
+### US23	Déployer l'application - 3 points
+
+### Coût total du Sprint 3 : **21 points**
