@@ -38,7 +38,7 @@ Ce projet vise à créer une **plateforme de gestion de projet agile** permettan
 | US20 | Création et Édition de Documentation | Moyenne | 2 pts | Sprint 3 |
 | US21 | Organisation de la Documentation | Moyenne | 2 pts | Sprint 3 |
 | US22 | Liaison Documentation et Issues | Basse | 2 pts | Sprint 3 |
-| US23 | Déployer l'application | Hautr | 3 pts | Sprint 3 |
+| US23 | Déployer l'application | Haute | 3 pts | Sprint 3 |
 
 **Total estimé:** 60 points  
 **Sprints planifiés:** 3  
