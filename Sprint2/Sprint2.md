@@ -1,7 +1,7 @@
 ### Sprint 2 (05/11 au 19/11)
 
 **Objectifs :**
-- Permettre aux de modifier et/ou supprimer un projets,
+- Permettre aux utilisateurs de modifier et/ou supprimer un projet
 - Gérer la structure et les membres d'un projet
 - Gestion complète des issues et tâches
 - Visualisation du backlog et des tâches (Kanban/Liste)
