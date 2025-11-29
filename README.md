@@ -38,8 +38,9 @@ Ce projet vise à créer une **plateforme de gestion de projet agile** permettan
 | US20 | Création et Édition de Documentation | Moyenne | 2 pts | Sprint 3 |
 | US21 | Organisation de la Documentation | Moyenne | 2 pts | Sprint 3 |
 | US22 | Liaison Documentation et Issues | Basse | 2 pts | Sprint 3 |
+| US23 | Déployer l'application | Hautr | 3 pts | Sprint 3 |
 
-**Total estimé:** 57 points  
+**Total estimé:** 60 points  
 **Sprints planifiés:** 3  
 **Sprint actuel:** Sprint 3 (19/11 au 03/12)
 
@@ -188,7 +189,9 @@ Ce projet vise à créer une **plateforme de gestion de projet agile** permettan
 - T22.1 : Développer l'API de liaison documentation-issues (POST /docs/:id/link-issue) - 1 point
 - T22.2 : Créer l'interface de liaison dans l'éditeur de documentation (front-end) - 1 point
 
-**Coût total:** 18 points
+#### US23 : Déployer l'application
+
+**Coût total:** 21 points
 
 ---
 
