@@ -52,6 +52,7 @@ Ce projet vise à créer une **plateforme de gestion de projet agile** permettan
 - **Tâches par US:** [Sprint0/US_Tasks.md](Sprint0/US_Tasks.md)
 - **Documentation utilisateur:** [docs/User.md](docs/User.md)
 - **Documentation admin:** [docs/Admin.md](docs/Admin.md)
+- **Documentation développeur:** [https://github.com/Tourlat/Conduite_de_projet_2025_Dev](https://github.com/Tourlat/Conduite_de_projet_2025_Dev) Nous avons laissé la documentation développeur sur notre repo github de développement.
 
 ---
 
