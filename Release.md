@@ -7,6 +7,7 @@ Le numéro du sprint correspond à la version.
 ## Deployment: 
 Docker et Azure App Service
 
+Déployé via Heztner Cloud, accès via l'IP publique :  http://46.224.100.193/
 
 ## Version:
 
