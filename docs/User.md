@@ -8,7 +8,8 @@ Notre application permet de gérer Issues, Tasks, Tests, Documentation et Releas
 
 Pour un aperçu rapide des fonctionnalités, vous pouvez visionner notre vidéo de démonstration :
 
-![Démonstration Vidéo](demo.mp4)
+![Démonstration Vidéo](video_demo_cdp.webm)
+
 
 ---
 
