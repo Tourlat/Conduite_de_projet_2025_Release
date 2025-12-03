@@ -7,6 +7,9 @@
 - Voir [Admin.md](docs/Admin.md)
 
 ### Documentation pour les développeurs :
+
+- Voir [https://github.com/Tourlat/Conduite_de_projet_2025_Dev](https://github.com/Tourlat/Conduite_de_projet_2025_Dev).
+  
 - Frontend : excuter `npm run doc` dans le dossier `frontend` pour générer la documentation avec TypeDoc. La documentation sera générée dans le dossier `frontend/docs/gen`.
 
 - Backend : 
