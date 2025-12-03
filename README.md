@@ -175,11 +175,11 @@ Ce projet vise à créer une **plateforme de gestion de projet agile** permettan
 - T16.2 : Créer la vue timeline des releases (front-end) - 1 point
 
 #### US17 à US19 : Tests
-- T17.1 : Développer l'API de création de cas de test (POST /projects/:id/test-cases) - 1 point
+- T17.1 : Développer l'API pour sauvegarder les cas de tests (POST /projects/:id/test-cases) - 1 point
 - T17.2 : Créer le formulaire de création de cas de test (front-end) - 1 point
-- T18.1 : Développer l'API d'exécution de test (POST /test-cases/:id/execute) - 1 point
+- T18.1 : Développer l'API pour modifier des tests (POST /test-cases/:id/update-tests) - 1 point
 - T18.2 : Créer l'interface d'exécution et mise à jour des résultats (front-end) - 1 point
-- T19.1 : Développer l'API des statistiques de tests (GET /projects/:id/test-dashboard) - 1 point
+- T19.1 : Développer l'API pour get les tests (GET /projects/:id/tests) - 1 point
 - T19.2 : Créer le dashboard des tests avec graphiques (front-end) - 1 point
 
 #### US20 à US22 : Documentation
